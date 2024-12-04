@@ -11,7 +11,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('hero-background.jpg') no-repeat center center/cover;
+    background: url('hero-background.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,7 +21,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 20px;
 }
@@ -80,7 +80,6 @@ body {
     transform: translateY(-20px)
 }
 
-/* Services Section */
 .services {
     padding: 60px 20px;
     background: #f4f4f4;
@@ -140,7 +139,6 @@ body {
     color: white;
 }
 
-/* Анимации */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -152,7 +150,8 @@ body {
     }
 }
 body {
-    background-image: url('background.jpg');
-    background-size: cover;
+    background-image: url('background.png');
+    background-size: auto;
     background-position: center;
+
 }
