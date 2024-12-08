@@ -13,8 +13,11 @@
     <!-- Hero Section -->
     <header class="hero">
         <nav class="navbar">
-            <a href="#services" class="nav-link">სერვისები</a>
-            <a href="#contact" class="nav-link">კონტაქტი</a>
+            <div class="logo-container">
+                <a href="/">
+                <img src="logo.png" alt="Logo" class="logo">
+            <a href="#services" id="SERVICES" class="nav-link">სერვისები</a>
+            <a href="#contact" id="CONTACT" class="nav-link">კონტაქტი</a>
             <div class="language-switch">
                 <button onclick="setLanguage('ka')">KA</button>
                 <button onclick="setLanguage('en')">EN</button>
@@ -23,7 +26,7 @@
         <div class="hero-content">
             <h1 id="title">კრეატიული გრაფიკული დიზაინი</h1>
             <p id="subtitle">პროფესიონალური დიზაინი თქვენი ბრენდისთვის.</p>
-            <a href="https://www.instagram.com/el.graphiq/profilecard/?igsh=MXN3a2VzbHFrNG9sbg==" class="btn">მეტის ნახვა</a>
+            <a href="https://www.instagram.com/el.graphiq/profilecard/?igsh=MXN3a2VzbHFrNG9sbg==" id="buttonText" class="btn">მეტის ნახვა</a>
         </div>
     </header>
     <!-- Services Section -->
@@ -32,20 +35,20 @@
             <h2 id="services-title">სერვისები</h2>
             <div class="service-grid">
                 <div class="service-card">
-                    <h3>ბრენდინგი</h3>
-                    <p>უნიკალური ვიზუალური იდენტობის შექმნა. ინდივიდულური სტილი ყოველთვის გამოგარჩევთ კონკურენტებისგან.</p>
+                    <h3 id="branding">ბრენდინგი</h3>
+                    <p id="branding-text">უნიკალური ვიზუალური იდენტობის შექმნა. ინდივიდულური სტილი ყოველთვის გამოგარჩევთ კონკურენტებისგან.</p>
                 </div>
                 <div class="service-card">
-                    <h3>ლოგო</h3>
-                    <p>ლოგოს დიზაინის შექმნა, რომელიც საუბრობს თქვენს ბრენდზე. კრეატიულობა და პროფესიონალიზმი ყოველ პიქსელში.</p>
+                    <h3 id="logo">ლოგო</h3>
+                    <p id="logo-text">ლოგოს დიზაინის შექმნა, რომელიც საუბრობს თქვენს ბრენდზე. კრეატიულობა და პროფესიონალიზმი ყოველ პიქსელში.</p>
                 </div>
                 <div class="service-card">
-                    <h3>სარეკლამო ბანერი</h3>
-                    <p>ეს არის თქვენი ხმა ვიზუალური მარკეტინგის სამყაროში, რომელიც იპყრობს ყურადღებას და აწვდის თქვენს აზრებს წამებში.</p>
+                    <h3 id="banner">სარეკლამო ბანერი</h3>
+                    <p id="banner-text">ეს არის თქვენი ხმა ვიზუალური მარკეტინგის სამყაროში, რომელიც იპყრობს ყურადღებას და აწვდის თქვენს აზრებს წამებში.</p>
                 </div>
             <div class="service-card">
-                <h3>ლოგოს ანიმაცია</h3>
-                <p>ანიმაცია ყურადღების მიპყრობის ყველაზე ეფექტური საშუალებაა. ვიზუალური შთაბეჭდილება, რომელიც გამოგარჩევთ კონკურენტებისგან.</p>
+                <h3 id="animation">ლოგოს ანიმაცია</h3>
+                <p id="animation-text">ანიმაცია ყურადღების მიპყრობის ყველაზე ეფექტური საშუალებაა. ვიზუალური შთაბეჭდილება, რომელიც გამოგარჩევთ კონკურენტებისგან.</p>
             </div>
         </div>
     </section>
@@ -54,7 +57,7 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 id="contact-title">კონტაქტი</h2>
-            <p>დაგვიკავშირდით დიზაინის ან თანამშრომლობის საკითხებზე !</p>
+            <p id="contact-text">დაგვიკავშირდით დიზაინის ან თანამშრომლობის საკითხებზე !</p>
             <div class="contact-info">
                 <p><strong>Email:</strong> <a href="mailto:el.graphiq@gmail.com">el.graphiq@gmail.com</a></p>
                 <p><strong>Instagram:</strong> <a href="https://instagram.com/el.graphiq" target="_blank">@el.graphiq</a></p>
@@ -62,7 +65,7 @@
         </div>
     </section>
     <footer class="footer">
-        <p id="footer-text">© 2024 ElGraphiq. All rights reserved.</p>
+        <p a="footer-text">© 2024 ElGraphiq. All rights reserved.</p>
     </footer>
 </body>
 </html>
